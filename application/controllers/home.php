@@ -11,4 +11,12 @@ class Home extends CI_Controller
 	{
 		$this->template->build('home/index');
 	}
+
+	public function demo()
+	{
+		$content = $this->db->get('news')->result_array();
+
+		$this->template->set_layout('content');
+		$this->template_cache->view('home/demo' , array('content'=>$content));
+	}
 }

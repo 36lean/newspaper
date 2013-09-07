@@ -41,7 +41,7 @@ class Template
 	private $_is_mobile = FALSE;
 
 	// Minutes that cache will be alive for
-	private $cache_lifetime = 0;
+	private $cache_lifetime = 900;
 
 	private $_ci;
 

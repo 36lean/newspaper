@@ -13,6 +13,7 @@
     		text-decoration: none;
     	}
     	</style>
+    	
 </head>
 
 <body style="padding-top:55px;">
@@ -22,12 +23,16 @@
 	
 	<div class="span4">
 		<div class="page-header">
-
 			<span class="label label-success"><h4>热门消息</h4></span>		
 		</div>				
 				
 		<?php $this->load->module('front/default/left_1');?>
 
+		<div class="page-header">
+			<span class="label label-success"><h4>热门标签</h4></span>
+		</div>
+
+		<?php $this->load->module('front/default/right_2');?>
 	</div>
 
 	<div class="span5">
@@ -48,30 +53,58 @@
 
 		<?php $this->load->module('front/default/right_1');?>
 
-	</div>
+		<div class="page-header">
+			<span class="label label-success"><h4>讨论</h4></span>
+		</div>
+
+		<?php $this->load->module('front/default/right_3');?>
 
 	</div>
 
-<hr/>
+	</div>
 
+
+	<hr/>
+
+	<p class="text-center"><img src="<?php echo site_url('public/asset/ad1.jpg')?>" /></p>
 
 	<div class="container-fluid">
 	<div class="row-fluid">
-	
 
 		<div class="span6">
-			
-			<blockquote>
-				
-				Test
+			<div class="page-header">
+				<span class="label label-success"><h4>历史新闻</h4></span> <small>Roll to the <a href="#">Day</a></small>
+			</div>
+			<?php $this->load->module('front/default/left_middle_1');?>
+		</div>
 
-			</blockquote>
-
+		<div class="span6">
+			<div class="page-header">
+				<span class="label label-success"><h4>观点</h4></span>
+			</div>
+			<?php $this->load->module('front/default/right_middle_1');?>
 		</div>
 
 	</div>
 	</div>
 
+	<hr/>
+	<p class="text-center"><img src="<?php echo site_url('public/asset/ad2.jpg')?>" /></p>
+
+
+	<div class="container-fluid">
+	<div class="row-fluid">
+
+		<div class="span6">
+			<div class="page-header">
+				<span class="label label-success"><h4>公告</h4></span>
+			</div>			
+		</div>
+
+	</div>
+	</div>
+
+<?php $this->load->module('front/performance/benchmark');?>
 </body>
 
 
