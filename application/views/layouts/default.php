@@ -21,7 +21,7 @@
 	<div class="container-fluid">
 	<div class="row-fluid">
 	
-	<div class="span4">
+	<div class="span3">
 		<div class="page-header">
 			<span class="label label-success"><h4>热门消息</h4></span>		
 		</div>				
@@ -45,10 +45,10 @@
 
 	</div>
 
-	<div class="span3">
+	<div class="span4">
 		
 		<div class="page-header">
-			<span class="label label-success"><h4>Passport</h4></span>
+			<span class="label label-success"><h4>快捷通道</h4></span>
 		</div>
 
 		<?php $this->load->module('front/default/right_1');?>
@@ -66,7 +66,7 @@
 
 	<hr/>
 
-	<p class="text-center"><img src="<?php echo site_url('public/asset/ad1.jpg')?>" /></p>
+	<p class="text-center"><img class="img-rounded" src="<?php echo site_url('public/asset/ad1.jpg')?>" /></p>
 
 	<div class="container-fluid">
 	<div class="row-fluid">

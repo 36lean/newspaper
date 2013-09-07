@@ -1,8 +1,8 @@
 
 
-<table class="table table-condensed">
+<table class="table table-hover">
 <tr><td>
-<p><img src="http://cn.wsj.com/photo/OB-YU357_yuan09_F_20130905141628.jpg" width="100%" /></p>
+<p><img class="span12 img-rounded" src="http://cn.wsj.com/photo/OB-YU357_yuan09_F_20130905141628.jpg" /></p>
 <h3>
 <a href="#">人民币交易量激增 未来不可限量</a>
 <small>
@@ -11,7 +11,7 @@
 </td></tr>
 
 <tr><td>
-<p><img src="http://cn.wsj.com/photo/OB-YU168_yaowin_G_20130905032955.jpg" width="100%" /></p>
+<p><img class="span12 img-rounded" src="http://cn.wsj.com/photo/OB-YU168_yaowin_G_20130905032955.jpg" /></p>
 <h3>
 <a href="#">姚明推低端葡萄酒瞄准中产</a>
 <small>
