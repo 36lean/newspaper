@@ -14,3 +14,19 @@
 	<div class="page-header">
 		<strong>评论列表 ( 122 )</strong>
 	</div>
+
+
+    <?php for( $i=0 ; ;$i++){?>
+    <div class="span12">
+        <div class="span3">
+            <a href="#"><img src="http://tp3.sinaimg.cn/2719326551/50/1" /> zyzyandzyzy</a>
+        </div>
+
+        <div class="span9">
+            <blockquote>已经无法阻止人类步入歧途了！我们到底有什么？我们到底怕什么？我们的生活用的了那么多的技术吗？！<small>2012-3-2 10:20:10</small></blockquote>
+        </div>
+    </div>
+
+    <?php if( $i>20) break;?>
+
+    <?php }?>
